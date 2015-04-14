@@ -1,4 +1,7 @@
 # bitpay-ruby-keyutils
+
+[![](https://secure.travis-ci.org/bitpay/bitpay-ruby-keyutils.png)](http://travis-ci.org/bitpay/bitpay-ruby-keyutils)    [![Gem Version](https://badge.fury.io/rb/bitpay-key-utils.svg)](http://badge.fury.io/rb/bitpay-key-utils) 
+
 Provides required cryptographic functions to use the BitPay 2.0 API.
 
 ## [Getting Started &raquo;](http://dev.bitpay.com/guides/ruby-key-utils.html)
