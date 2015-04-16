@@ -84,6 +84,11 @@ module BitPay
         end
       end
 
+      def sign_with_pem pem, message
+        priv = get_private_key_from_pem pem
+        sign(message, priv)
+      end
+      
       ########## Private Class Methods ################
 
       ## Base58 Encoding Method

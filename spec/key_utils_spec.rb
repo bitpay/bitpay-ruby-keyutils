@@ -28,7 +28,23 @@ describe BitPay::KeyUtils do
     it 'will return the right sin for the right pem' do
       expect(key_utils.generate_sin_from_pem(pem)).to eq sin
     end
+  end
 
+  describe '.sign_with_pem' do
+    it "should provide a valid signature" do
+      message = "hello cincinatti"
+      digest = Digest::SHA256.digest(message)
+
+      pem = PEM
+      signature = key_utils.sign_with_pem pem, message
+
+      priv= OpenSSL::PKey::EC.new(pem).private_key.to_i
+      group = ECDSA::Group::Secp256k1
+      pk = group.generator.multiply_by_scalar(priv)
+      decoded = ECDSA::Format::SignatureDerString.decode(signature.to_i(16).to_bn.to_s(2))
+      valid = ECDSA.valid_signature?(pk, digest, decoded)
+      expect(valid).to be(true)
+    end
   end
 
   context "errors when priv_key is not provided" do
