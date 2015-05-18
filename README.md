@@ -1,6 +1,11 @@
 # bitpay-ruby-keyutils
 
-[![](https://secure.travis-ci.org/bitpay/bitpay-ruby-keyutils.png)](http://travis-ci.org/bitpay/bitpay-ruby-keyutils)    [![Gem Version](https://badge.fury.io/rb/bitpay-key-utils.svg)](http://badge.fury.io/rb/bitpay-key-utils) 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/bitpay/bitpay-ruby-keyutils/master/LICENSE)
+[![Travis](https://img.shields.io/travis/bitpay/bitpay-ruby-keyutils.svg?style=flat-square)](https://travis-ci.org/bitpay/bitpay-ruby-keyutils)
+[![Gem](https://img.shields.io/gem/v/bitpay-key-utils.svg?style=flat-square)](https://rubygems.org/gems/bitpay-key-utils)
+[![Code Climate](https://img.shields.io/codeclimate/github/bitpay/bitpay-ruby-keyutils.svg?style=flat-square)](https://codeclimate.com/github/bitpay/bitpay-ruby-keyutils)
+[![Coveralls](https://img.shields.io/coveralls/bitpay/bitpay-ruby-keyutils.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitpay-ruby-keyutils)
+
 
 Provides required cryptographic functions to use the BitPay 2.0 API.
 
