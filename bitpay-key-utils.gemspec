@@ -24,4 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-byebug', '2.0.0'
   s.add_development_dependency 'pry-rescue', '1.4.1'
   s.add_development_dependency 'rspec', '3.1.0'
+  s.add_development_dependency 'coveralls'
 end

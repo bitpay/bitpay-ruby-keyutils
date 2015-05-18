@@ -1,4 +1,6 @@
 require 'pry'
+require 'coveralls'
+Coveralls.wear!
 
 require File.join File.dirname(__FILE__), '..', 'lib', 'bitpay_key_utils.rb'
 
