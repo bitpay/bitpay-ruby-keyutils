@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version = BitPay::KEY_UTILS_VERSION
   s.licenses = ['MIT']
   s.authors = 'Bitpay, Inc.'
-  s.email = 'info@bitpay.com'
+  s.email = 'sales-engineering@bitpay.com'
   s.homepage = 'https://github.com/bitpay/bitpay-ruby-keyutils'
   s.summary = 'Official Ruby library for the BitPay API'
   s.description = 'Powerful, flexible, lightweight, thread-safe interface to the BitPay developers API'
