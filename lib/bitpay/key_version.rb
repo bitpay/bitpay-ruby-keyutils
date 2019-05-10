@@ -1,3 +1,3 @@
 module BitPay
-  KEY_UTILS_VERSION="2.0.1"
+  KEY_UTILS_VERSION="2.1.1905"
 end
